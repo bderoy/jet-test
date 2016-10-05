@@ -1,0 +1,22 @@
+{
+ "properties": {
+    "objectId" : {
+     "type": "string"
+   },
+     "objectType" : {
+     "type": "string"
+   }
+ },
+  "methods":{
+    "reloadData" : {
+      "description" :"A custom incoming event for Jet that creates an event to send across"
+    }
+  },
+ "events" : {
+    "cellExpanded" : {
+      "bubbles" : true,
+      "cancelable" : false,
+      "description":"A custom event named cellExpanded which is manually triggered when a cell is clicked"
+    }
+  }
+}
